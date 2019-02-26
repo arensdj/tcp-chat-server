@@ -8,3 +8,4 @@ class ChatClient(object):
         self.nick = 'user_{}'.format(random.random())
         self.conn = conn
         self.addr = addr
+

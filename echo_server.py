@@ -12,8 +12,8 @@ def setup_server():
 
 
 if __name__ == '__main__':
-    server, (conn, addr) = setup_server()
-    print('Received client connection for {}'.format(addr))
+    server, (conn, address) = setup_server()
+    print('Received client connection for {}'.format(address))
 
     buffer_length = 16
     message_complete = False
